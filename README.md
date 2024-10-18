@@ -46,7 +46,7 @@ To use this model:
 If you use this model in your research, please cite our paper:
 
 ```
-[Insert full citation for "Statistical seasonal prediction of Arctic sea ice concentration based on spatiotemporal anomaly persistent method" here]
+Lee, G. R., Woo, S. H., Baek, E. H., Kim, J. H., Kim, B. M., & Jeong, J. H. (2024). Statistical seasonal prediction of Arctic sea ice concentration based on spatiotemporal anomaly persistent method. Environmental Research Letters.
 ```
 
 ## Contact
