@@ -34,7 +34,7 @@ sic_for_pre(iym+1:iym+12,:,:) = (/sic_clim_apd(tmm:tmm+11,:,:)/)
 sic_anom = calcMonAnomTLL(sic_for_pre,sic_clim)
    delete(iym)
 
-clat = sqrt(cos(get_d2r("float")*sic_anom&lat))
+clat = sqrt(cos(get_d2r(sic_anom&lat)))
 sic_anom_reshape = reshape(sic_anom,(/dimsizes(sic_anom&time)/12,12,dimsizes(sic_anom&lat),dimsizes(sic_anom&lon)/))
 sic_anom_reshape_wgt = sic_anom_reshape*conform(sic_anom_reshape,clat,2)
    sic_anom_reshape_wgt!0 = "year"
